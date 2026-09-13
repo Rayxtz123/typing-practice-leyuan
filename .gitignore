@@ -1,0 +1,35 @@
+# 运行时个人数据（密码哈希、练习记录、导入题库缓存）
+# 这些文件会在首次启动时自动生成，不要提交到仓库
+data/config.json
+data/progress.json
+data/content.json
+
+# 打包产物
+build/
+dist/
+*.exe
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 日志 / 崩溃转储
+crash.log
+selftest.log
+*.log
+
+# 排版自查截图（本地工具生成，不必入库）
+shots/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
